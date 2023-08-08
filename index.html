@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Todo List</h1>
+  </header>
+  <form>
+    <input type="text" class='todo-inputs'>
+    <button class='todo-button'>
+      <i class='fas fa-plus-square'></i>
+    </button>
+    <div class="select">
+      <select name="todos" class='filter-todos'>
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+      </select>
+    </div>
+  </form>
+  <div class="todo-container">
+    <ul class="todo-list"></ul>
+  </div>
+    <script src="https://kit.fontawesome.com/ab60e20547.js" crossorigin="anonymous"></script>
+<script src="javascsript.js"></script>
+</body>
+</html>
