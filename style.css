@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
+  background-color:#333;
   font-family: sans-serif;
   min-height: 100vh;
   color: #fff;
@@ -127,31 +127,4 @@ select {
 .select:hover::after {
   background: white;
   color: #ff6f47;
-}
-
-
-@media screen and (max-width: 760px) {
-  form input,
-  form button {
-    font-size: 1.5rem;
-  }
-
-  .todo-item {
-    font-size: 1rem;
-  }
-
-  .select {
-    width: 100%;
-  }
-
-  select {
-    width: 100%;
-    /* Adjust the following styles to ensure the dropdown arrow is displayed correctly */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding-right: 2rem;
-    background: url('dropdown-arrow.png') no-repeat right center; /* Replace with the path to your arrow icon */
-    background-size: 1.5rem; /* Adjust the size of the arrow icon */
-  }
 }
