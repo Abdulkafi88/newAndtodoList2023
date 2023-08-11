@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#333;
+  background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
   font-family: sans-serif;
   min-height: 100vh;
   color: #fff;
